@@ -7,7 +7,7 @@ blokk1b = rectangle(20, 160, "solid", "darkblue")
 blokk2b = rectangle(220, 20, "solid", "darkblue")
 
 
-#Her er de ulike rektanglene som trengs for å lage det norske flagget. Alle målene er ganget med ti.
+#Her er de ulike rektanglene som trengs for å lage det norske flagget. Alle målene er ganget med ti. De ulike blokkene, altså delene av flagget er definert med hvilken farge de skal ha, tettheten av fargen og størrelsen.
 
 rute1= put-image(blokk1r, 50, 50, empty-scene(270, 250))
 rute2= put-image(blokk2r, 50, 150, rute1)
